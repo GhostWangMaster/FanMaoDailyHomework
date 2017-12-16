@@ -1,0 +1,6 @@
+ll = [4,99,23,1,14,87,13,0,192,22]
+length = len(ll)
+for i in range(0,length):
+    for j in range(i + 1, length):
+        if ll[i] > ll[j]:
+            ll[i],ll[j] = ll[j],ll[i]
